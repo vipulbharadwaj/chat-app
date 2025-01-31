@@ -13,7 +13,7 @@ const App = () => {
   const[messages, setMessages] = useState([]);
   console.log(messages);
 
-  const socket = useMemo(()=>io("http://localhost:3000"), [])
+  const socket = useMemo(()=>io("https://chat-app-server-vnwv.onrender.com"), [])
 
   
   const handleSubmit = (e) => {
