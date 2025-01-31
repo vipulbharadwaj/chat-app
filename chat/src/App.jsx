@@ -30,7 +30,6 @@ const App = () => {
     }
   };
 
-
   useEffect(() => {
     const handleConnect = () => {
       setSocketId(socket.id);
